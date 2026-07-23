@@ -1,8 +1,28 @@
 aid: back-office
 name: Back Office
-description: Back Office is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Back Office, Inc. operates Finally (finally.com), a Miami-based fintech that provides a unified,
+  AI-powered bookkeeping, accounting, and finance suite for growing small and medium-sized businesses.
+  The platform combines automated bookkeeping and ledger management, accounts payable and bill pay,
+  expense management, corporate cards with built-in controls, invoicing, payment processing, payroll
+  across 150+ countries, and credit monitoring, with AI agents that classify transactions, reconcile
+  accounts, close the books, and prepare audits. Founded in 2018 and trusted by over 3,500 companies,
+  Finally publishes a SOC 2 trust center but does not currently expose a public developer API or
+  developer portal; this profile tracks its identity, web properties, and security posture in the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/back-office/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://finally.com/wp-content/uploads/2026/01/Frame-8.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Accounting
+- Bookkeeping
+- Payroll
+- Expense Management
+- Accounts Payable
+- Corporate Cards
+- Invoicing
+- Financial Automation
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://finally.com
+- type: Blog
+  url: https://finally.com/blog/
+- type: Pricing
+  url: https://finally.com/pricing.html
+- type: SignUp
+  url: https://apps.finally.com/onboarding/business?target=signup
+- type: Login
+  url: https://apply.finally.com/product-login
+- type: Support
+  url: https://help.finally.com
+- type: TermsOfService
+  url: https://finally.com/terms.html
+- type: PrivacyPolicy
+  url: https://finally.com/privacy.html
+- type: TrustCenter
+  url: security/back-office-trust-center.yml
+- type: Compliance
+  url: security/back-office-trust-center.yml
+- type: DomainSecurity
+  url: security/back-office-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

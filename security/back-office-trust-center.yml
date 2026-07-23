@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.finally.com/
+url: https://trust.finally.com/
+certifications:
+- SOC 2
+evidence:
+- source: https://trust.finally.com/
+  keywords:
+  - soc 2
+  - trust center
